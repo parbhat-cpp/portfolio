@@ -28,7 +28,7 @@ const HomeSection = () => {
             },
           }}
         >
-          <img src="src\assets\img.png" />
+          <img src="https://iili.io/Jff5PQs.png" />
         </Box>
         <Box
           sx={{

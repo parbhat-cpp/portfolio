@@ -27,7 +27,7 @@ export const socials = {
 };
 
 export const resume_link =
-  "https://drive.google.com/file/d/1TpLrAQZv-nXB_EviL_OFfGWLvsmLxDN0/view?usp=drive_link";
+  "https://drive.google.com/file/d/1f0TSO-7MKSx2f-R9KSguFMbUoU8SwUoT/view?usp=drive_link";
 
 export const skills = [
   {
@@ -109,7 +109,7 @@ export const projects = [
     content:
       "It is a clone of an e commerce website Flipkart and I have tried to make it look as similar as possible. I have used React, Redux, Node.js, MongoDB in this project.",
     url: "https://flipkartclone-mern.onrender.com/",
-    img: "https://drive.google.com/uc?export=view&id=13hvw9My6bAueWprvOkzN71dIwef406QK",
+    img: "https://iili.io/JffYVzF.md.png",
   },
   {
     name: "Google Clone",
@@ -117,14 +117,14 @@ export const projects = [
     content:
       "A Google search engine clone which can search and provide a result based on your query. It uses Google custom search engine to get result from the web",
     url: "https://boisterous-sable-4a425d.netlify.app/",
-    img: "https://drive.google.com/uc?export=view&id=18VpoRqr8L_aXClYKHyrdd5Q8fNnHhAVJ",
+    img: "https://iili.io/JffYEOP.md.png",
   },
   {
     name: "IMDb Clone",
     source_code: "https://github.com/parbhat-cpp/imdb-clone",
     content:
       "A site which contains rating of various kind of movies. It also helps lists different categories of movies according to the users's query",
-    img: "https://drive.google.com/uc?export=view&id=1KMpLTf9XIJbgD28I5D9aX7v48srnuM-F",
+    img: "https://iili.io/JffYjqJ.md.png",
   },
   {
     name: "Forms Clone",
@@ -132,7 +132,7 @@ export const projects = [
     content:
       "Forms clone which helps in creating and taking response for a given form from a user. It doesn't require authentication as it uses IDs for form and response, which makes it easier to manage and use",
     url: "https://ps-forms-clone.onrender.com/",
-    img: "https://drive.google.com/uc?export=view&id=1PhatlB-mHLgxu_Wy1ZfBeDtprgaiP0pD",
+    img: "https://iili.io/JffY0JV.png",
   },
   {
     name: "Task Management",
@@ -140,21 +140,20 @@ export const projects = [
     content:
       "A Task management project in which tasks are categorised into three sections to-do, doing and done. It is easy to use and responsive too. User can add, delete, update a task and can also change the status of a task.",
     url: "https://kanbanboardtaskmanagement-uu93.onrender.com/",
-    img: "https://drive.google.com/uc?export=view&id=1BmjE7ZZ07tjQmbx4Le9IrWMOzsVVHK_1",
+    img: "https://iili.io/JffYGb1.md.png",
   },
   {
     name: "Media Player",
     source_code: "https://github.com/parbhat-cpp/mern-media-player",
     content:
       "It is a media player capable of playing video and audio. I have used React in the front end and node js in the back end. I have used node js libraries like fs and path to complete this project.",
-    img: "https://drive.google.com/uc?export=view&id=1Jo0ChalREtH90lFH7SoAqeVCHJwGlsWX",
+    img: "https://iili.io/JffY15B.md.png",
   },
   {
     name: "Portfolio",
     source_code: "https://github.com/parbhat-cpp/portfolio",
     content:
       "Portfolio website which contains all my details like qualification, projects and work experience.",
-    img: "https://drive.google.com/uc?export=view&id=1H0zFY62IicbtBGmAd39xlMF2axjzJXh2",
+    img: "https://iili.io/JffYw0v.md.png",
   },
-  //https://drive.google.com/uc?export=view&id=
 ];
