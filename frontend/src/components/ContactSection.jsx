@@ -3,7 +3,7 @@ import { Alert, Box, Button, InputBase, Typography } from "@mui/material";
 import { useState } from "react";
 import SendIcon from "@mui/icons-material/Send";
 
-const SERVER_URL = "http://localhost:5000";
+const SERVER_URL = "https://portfolio-server-8k26.onrender.com/";
 
 const CustomButton = styled(Button)({
   background: "#2b3334",

@@ -127,11 +127,11 @@ export const projects = [
     img: "https://iili.io/JffYjqJ.md.png",
   },
   {
-    name: "Forms Clone",
+    name: "Form Builder",
     source_code: "https://github.com/parbhat-cpp/gforms-clone",
     content:
       "Forms clone which helps in creating and taking response for a given form from a user. It doesn't require authentication as it uses IDs for form and response, which makes it easier to manage and use",
-    url: "https://ps-forms-clone.onrender.com/",
+    url: "https://formbuilder-lp7j.onrender.com/",
     img: "https://iili.io/JffY0JV.png",
   },
   {

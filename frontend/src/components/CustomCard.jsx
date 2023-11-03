@@ -52,7 +52,7 @@ const CustomCard = ({ title, content, img_src, source_code, link }) => {
                   Source Code
                 </CustomButton>
               </a>
-              <a href={source_code} target="_blank" rel="noreferrer">
+              <a href={link} target="_blank" rel="noreferrer">
                 <CustomButton style={{ display: link ? "block" : "none" }}>
                   Link
                 </CustomButton>
