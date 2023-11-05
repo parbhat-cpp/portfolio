@@ -1,8 +1,17 @@
-import { Box, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CustomCard from "./CustomCard";
-import { projects } from "../constants";
+import { projects, seeMore } from "../constants";
+import { useNavigate } from "react-router-dom";
 
 const responsive = {
   superLargeDesktop: {
@@ -24,6 +33,8 @@ const responsive = {
 };
 
 const ProjectsSection = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <Box
@@ -44,7 +55,7 @@ const ProjectsSection = () => {
         >
           <Typography variant="h5">My Projects</Typography>
           <Carousel responsive={responsive}>
-            {projects.map((project) => (
+            {projects.slice(0, 5).map((project) => (
               <Box
                 key={project}
                 sx={{
@@ -60,6 +71,42 @@ const ProjectsSection = () => {
                 />
               </Box>
             ))}
+            <Box
+              sx={{
+                margin: "2px 4px",
+                display: "flex",
+              }}
+            >
+              <Card
+                sx={{
+                  maxWidth: 345,
+                  background: "#27282982",
+                  color: "#fff",
+                  borderRadius: "9px",
+                  margin: "0 auto",
+                }}
+              >
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    image={seeMore}
+                    alt="green iguana"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                      See More
+                    </Typography>
+                    <Button
+                      sx={{ color: "#ebeb90" }}
+                      onClick={() => navigate("/projects")}
+                    >
+                      Click Here
+                    </Button>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Box>
           </Carousel>
         </Box>
       </Box>

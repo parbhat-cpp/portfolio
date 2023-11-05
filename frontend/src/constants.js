@@ -104,6 +104,13 @@ export const school_pic =
 
 export const projects = [
   {
+    name: "Job Seeker",
+    source_code: "https://github.com/parbhat-cpp/job-seeker",
+    content:
+      "It is my First React Native App which uses an API to fetch job vacancies and also provides applying functionality",
+    img: "https://iili.io/Jqh6XUl.jpg",
+  },
+  {
     name: "Flipkart Clone",
     source_code: "https://github.com/parbhat-cpp/flipkart-clone-mern",
     content:
@@ -157,3 +164,5 @@ export const projects = [
     img: "https://iili.io/JffYw0v.md.png",
   },
 ];
+
+export const seeMore = "https://iili.io/JqhrPrQ.jpg";
