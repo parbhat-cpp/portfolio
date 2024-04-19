@@ -27,7 +27,7 @@ export const socials = {
 };
 
 export const resume_link =
-  "https://drive.google.com/file/d/1f0TSO-7MKSx2f-R9KSguFMbUoU8SwUoT/view?usp=drive_link";
+  "https://drive.google.com/file/d/11qgkMLKGN99XFOtWd381tg2ZEeNeM6JB/view?usp=drive_link";
 
 export const skills = [
   {
